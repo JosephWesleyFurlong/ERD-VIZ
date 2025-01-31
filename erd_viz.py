@@ -5,7 +5,7 @@ import graphviz
 # Load the schema data
 @st.cache_data
 def load_data():
-    return pd.read_csv('erd.csv')
+    return pd.read_csv('erd_2.csv')
 
 # Load the data
 df = load_data()
